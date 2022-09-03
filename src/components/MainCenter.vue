@@ -1,13 +1,18 @@
 <template>
-$END$
+ <div class="center-center">
+    <slot/>
+ </div>
 </template>
 
 <script>
 export default {
-name: "MainCenter"
+
 }
 </script>
 
 <style scoped>
-
+.center-center{
+  width: 70%;
+  background: white;
+}
 </style>
